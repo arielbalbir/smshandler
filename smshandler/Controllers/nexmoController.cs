@@ -23,11 +23,11 @@ namespace smshandler.Controllers
 
         private void SendOutgoingMessage(string message)
         {
-            var json = CreateOutgoingMessage(message);
+            var json = GenerateMessageUrl(message);
             // make an http request to nexmo here.
         }
 
-        private string CreateOutgoingMessage(string message)
+        private string GenerateMessageUrl(string message)
         {
             return message;  // should return the json string as specified in the nexmo documentation
         }
@@ -37,9 +37,9 @@ namespace smshandler.Controllers
         /// </summary>
         /// <param name="message"></param>
         /// <returns></returns>
-        public string GetMessageJson(string message)
+        public string GetMessageUrl(string message)
         {
-            return CreateOutgoingMessage(message);
+            return GenerateMessageUrl(message);
         }
     }
 }
