@@ -1,0 +1,3 @@
+﻿schools : the top schools are Wake Forest, Columbia and University of Pittsburgh.
+employers : The top employers are Amazon, Martin Marietta and Boeing.
+cities : The top cities are Pittsburgh, Austin and Phoenix.
