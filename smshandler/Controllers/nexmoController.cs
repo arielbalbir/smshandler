@@ -13,7 +13,7 @@ namespace smshandler.Controllers
     {
         public static string commandFile = "nexmoCommandFile.txt";
         // GET api/values
-        public string Get()
+        public string ProcessText()
         {
             // Log Text Message
             // Read the command file and Create Outgoing Text Message
