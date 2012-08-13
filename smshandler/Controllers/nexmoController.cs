@@ -64,7 +64,7 @@ namespace smshandler.Controllers
         }
 
         /// <summary>
-        /// Use this method as an easy way to test the outgoing sms message   https://github.com/arielbalbir/smshandler
+        /// Use this method as an easy way to test the outgoing sms message 
         /// </summary>
         /// <param name="message"></param>
         /// <returns></returns>
